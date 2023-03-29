@@ -1,3 +1,0 @@
-# Notifications
-
-## Documentation in Postman: 
