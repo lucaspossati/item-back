@@ -1,5 +1,4 @@
-﻿
-using api.Profiles;
+﻿using api.Profiles;
 
 namespace api.Configuration
 {

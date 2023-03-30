@@ -1,5 +1,4 @@
 ﻿using FluentValidation.AspNetCore;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace api.Configuration
 {

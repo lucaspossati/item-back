@@ -12,7 +12,6 @@ namespace Core.Validator
                 var errors = results.Errors.Select(x => new Error { PropertyName = x.PropertyName, ErrorMessage = x.ErrorMessage }).ToList();
                 model.SetErrors(errors);
             }
-            
         }
     }
 }

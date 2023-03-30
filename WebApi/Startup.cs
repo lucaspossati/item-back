@@ -1,5 +1,4 @@
 using api.Configuration;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 
@@ -80,8 +79,6 @@ namespace api
             {
                 endpoints.MapControllers();
             });
-
-            
         }
     }
 }

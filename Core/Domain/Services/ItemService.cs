@@ -1,6 +1,4 @@
-﻿
-
-using api.Domain.Services.Interfaces;
+﻿using api.Domain.Services.Interfaces;
 using Application.Models;
 using AutoMapper;
 using Core.Validator;
@@ -8,7 +6,6 @@ using Core.Validator.User;
 using Data.Repository.Interface;
 using FluentValidation.Results;
 using Manager.VM.ItemVM;
-using Microsoft.AspNetCore.Mvc;
 
 namespace api.Domain.Services
 {

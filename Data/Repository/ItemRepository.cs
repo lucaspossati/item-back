@@ -2,9 +2,6 @@
 using Data.Context;
 using Data.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace Data.Repository
 {
