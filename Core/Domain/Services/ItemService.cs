@@ -42,6 +42,13 @@ namespace api.Domain.Services
 
             Validation.AddErrors(model, results);
 
+            var itemAlreadyExistsByCode = await itemRepository.Get(model.ItemCode);
+
+            if (itemAlreadyExistsByCode != null)
+            {
+                model.AddError("ItemCode already registered", "ItemCode");
+            }
+
             if (model.Errors != null && model.Errors.Count > 0) return mapper.Map<ItemVM>(model);
 
             var vmToModel = mapper.Map<Item>(model);
